@@ -63,11 +63,6 @@ var myChart = new Chart(ctx, {
         data: wochenmittel,
         borderColor: "#8e5ea2",
         fill: false
-      }, {
-        label: 'Simulation der Messwerte',
-        data: simulation,
-        borderColor: "#8effa2",
-        fill: false
       }],
         labels: tage,
         backgroundColor: 'rgba(255, 99, 132, 0.2)',
